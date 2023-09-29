@@ -13,11 +13,12 @@ FILENAME = get_data_file_path('messages.log')
 # >>>> DO NOT MODIFY CODE ABOVE <<<<
 
 
+
 def num_shutdowns(logfile):
     """
     Your docstring here.  Replace the pass keyword below with your implementation.
     """
-    pass
+    return len(get_shutdown_events(logfile))
 
 
 # >>>> The code below will call your function and print the results
